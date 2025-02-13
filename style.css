@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+
+
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    /* Align menu items to the right */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-icon {
+    display: block;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+
+a.ctg {
+    text-decoration: none;
+    color: #555;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    
+}
+
+.col1 {
+    flex-basis: 50%;
+}
+
+.col1 img {
+    height: 600px;
+    width: 700px;
+}
+
+.col1 h1 {
+
+    font-size: 62px;
+
+
+}
+
+a.btn {
+    display: inline-block;
+    border-radius: 80px;
+
+    text-decoration: none;
+    background-color: rgb(221, 255, 0);
+    margin: 30px 0;
+    padding: 20px;
+    text-align: center;
+    align-self: center;
+
+
+}
+
+/* a.btn:hover {
+    color:red;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 50px;
+    opacity: 0.9;
+    padding:20px;
+    transition: 0.56s;
+    
+} */
+/* a.ctg:hover {
+    color:red;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 30px;
+    opacity: 0.7;
+    padding: 20px;
+    transition: 0.56s;
+    
+}  */
+.header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
+.categories {
+    margin: 70px 0px;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 245px;
+    margin-bottom: 30px;
+
+}
+
+.col-3 img {
+
+    width: 100%
+}
+
+.col-3:hover {
+    transition: 0.5s;
+    transform: translateY(-5px);
+
+}
+
+.small-container {
+
+
+    max-width: 1080px;
+
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.col-4 {
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.col-4:hover {
+    transform: translateY(-5px);
+}
+
+h4 {
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p {
+    font-size: 14px;
+
+}
+
+/* .cart:hover {
+   background-color: orange;
+   opacity:0.7;
+   border-radius: 29px;
+   
+} */
+.cart {
+    margin-right: 20px;
+}
+
+.rating {
+    color: rgb(248, 224, 13)
+}
+
+.col-2 {
+
+    flex-basis: 50%;
+    flex-direction: row;
+}
+
+.col-2 img {
+    width: 100%;
+}
+
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 40px;
+    padding: 40px;
+    margin-bottom: 30px;
+
+}
+
+.offer .col-2 img {
+    padding: 50px;
+}
+
+.small {
+    color: #555;
+}
+
+.testimonial {
+    margin: 70px;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+
+}
+
+.testimonial .col-3 {
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.testimonial .col-3 h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30;
+    color: rgba(0, 0, 0, 0.826)
+}
+
+.testimonial .col-3 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.testimonial .col-3:hover {
+    transition: 0.5s;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.col-3 .Quote .fa-solid {
+    color: #ff523b;
+    font-size: 34px;
+}
+
+.brands {
+    margin: 100px auto;
+}
+
+.col-5 {
+
+    width: 160px;
+
+}
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover {
+    filter: grayscale(0);
+
+}
+
+.footer {
+
+    background-color: black;
+
+}
+
+.container row {
+    margin-left: 10px;
+}
+
+.footer-col-4 {
+padding:25px;
+    margin-top: 50px;
+    display: inline-block;
+    flex-basis: 25%;
+    height: 400px;
+    width: 200px;
+    content-visibility: visible;
+
+
+}
+
+.footer-col-4 img {
+    width: 100%;
+}
+
+.footer-col-4 p,
+h3,
+h2,
+li {
+    color: #fff
+}
+
+.footer-col-4 ul li {
+    text-decoration: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: list-item;
+}
+
+.footer-col-4 a {
+    text-decoration: none;
+    color: #fff
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 120px;
+
+}
+
+.footer hr {
+    border: #fff 10px;
+    border-style: line;
+}
+
+.menu-icon {
+    text-align: center;
+    display: none;
+}
+
+
+nav ul li {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+
+}
+@media only screen and (max-width: 800px) {
+
+    /* Default styles for larger screens */
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left:0;
+        background: #333;
+        width: 100%;
+        overflow:100%;
+        display: inline-block;
+        text-align: right;
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        display:block;
+        margin-right: 50px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    nav ul li a {
+        color: #fff;
+    }
+.menu-icon {
+    display: block;
+    cursor: pointer;
+}
+    /*menu icon will be visible for width of page less than 800px, above 800px or larger screen it will not be visible and we get navbar */
+@media only screen and (max-width:800px){
+    nav ul{/*for whole dropdown menu chart*/
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;/*before applying this, we were getting menu links open, so to clipped or close them and to work them only when clicked, we use overflow hidden*/
+        transition: max-Height 0.5s;/*this will make dropdown menu to open with little bit delay and make it stylish*/
+   
+    }
+    nav ul li{/*for home contacts etc*/
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    nav ul li a{/*dropdown menu link color would be white*/
+        color: #fff;
+    }
+    .menu-icon{/*we again call menu icon in smaller screen, before smaller screen, we set display none, means initially it was not visible for any screen, but now it will be visible for smaller screens as we set display to block*/
+        display:block;
+        cursor: pointer; 
+    }
+
+} 
+}
+/*-----------All Product---------------*/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+#AllP{
+    color:Black;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select:focus{
+    outline:none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    cursor:pointer;
+}
+.page-btn span:hover{
+    background: #ff523b;
+    color:#fff;
+}
+
+}
+
+/*------------- media query for less than 600px screen ------------*/
+
+@media only screen and (max-width: 600px) {
+    .row {
+      text-align: center;
+    }
+
+  
+    .col-2,
+    .col-3,
+    .col-4 {
+      flex-basis: 100%;
+    }
+  
+    .single-product .row {
+      text-align: left;
+    }
+  
+    .single-product .col-2 {
+      padding: 20px 0;
+    }
+  
+    .small-container .row {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  
+    .small-container .row .col-4 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .single-product h1 {
+      font-size: 26px;
+      line-height: 32px;
+    }
+  
+    .row-2 {
+      margin-top: 50px;
+    }
+  
+    .cart-info p {
+      display: none;
+    }
+  }
+  
+/* ----------------Single Product Details------------*/
+.single-product {
+    margin-top: 80px;
+}
+.single-product .col-2 img {
+    padding: 10px;
+}
+.single-product .col-2{
+   padding: 20px; 
+   
+}
+
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product select{
+    display: block;
+    padding:10px;
+    margin-top: 20px;;
+}
